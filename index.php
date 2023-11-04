@@ -23,7 +23,7 @@ while($i = mysqli_fetch_assoc($response))
 }
 
 */
-
+/*
 $table_name = "admins";
 
 $query = "SELECT * FROM $table_name";
@@ -41,3 +41,6 @@ while($i = mysqli_fetch_assoc($response))
     echo "<p>".$i['position']."</p>";
     echo "<hr>";
 }
+*/
+
+echo "Helloo"
