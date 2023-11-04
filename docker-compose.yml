@@ -1,7 +1,8 @@
 version: '3' #docker version
 services:
   www:
-    image: php:apache
+    #image: php:apache
+    image: vikram0911/php-app:latest
     volumes:
       - "./:/var/www/html" #synch project dir with container wed dir
     ports:
